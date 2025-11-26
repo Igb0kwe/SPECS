@@ -66,10 +66,10 @@ void setupSpecificationsTable(QTableWidget *tableWidget, const QString &headerTe
 void setupSpecificationsTableData(QTableWidget *tableWidget, int b) {
 
     QSqlDatabase database = QSqlDatabase::addDatabase("QMYSQL");
-    database.setHostName("sql8.freesqldatabase.com");
-    database.setUserName("sql8809447");
-    database.setPassword("jxU8gNvcT6");
-   database.setDatabaseName("sql8809447");
+    database.setHostName("**********");
+    database.setUserName("**********");
+    database.setPassword("**********");
+   database.setDatabaseName("**********");
 
     if (database.open()) {
         qDebug() << "GOOD";
@@ -158,10 +158,10 @@ void setupComparisonTable(QTableWidget *tableWidget, int a) {
 void setupComparisonTableData(const QString& search, int a, QTableWidget *tableWidget) {
 
     QSqlDatabase database = QSqlDatabase::addDatabase("QMYSQL");
-    database.setHostName("sql8.freesqldatabase.com");
-    database.setUserName("sql8809447");
-    database.setPassword("jxU8gNvcT6");
-   database.setDatabaseName("sql8809447");
+    database.setHostName("**********");
+    database.setUserName("**********");
+    database.setPassword("**********");
+   database.setDatabaseName("**********");
 
     if (database.open()) {
         qDebug() << "GOOD";
@@ -234,10 +234,10 @@ std::vector<int> searchFound;
 
 void searchDatabase(const QString& search, int a, QListWidget *listViewWidget) {
     QSqlDatabase database = QSqlDatabase::addDatabase("QMYSQL");
-    database.setHostName("sql8.freesqldatabase.com");
-    database.setUserName("sql8809447");
-    database.setPassword("jxU8gNvcT6");
-   database.setDatabaseName("sql8809447");
+    database.setHostName("**********");
+    database.setUserName("**********");
+    database.setPassword("**********");
+   database.setDatabaseName("**********");
 
     database.open();
     searchFound.clear();
@@ -325,10 +325,10 @@ void searchDatabase(const QString& search, int a, QListWidget *listViewWidget) {
 
 void searchDatabase_range(float b, float c, int a, QListWidget *listViewWidget) {
     QSqlDatabase database = QSqlDatabase::addDatabase("QMYSQL");
-    database.setHostName("sql8.freesqldatabase.com");
-    database.setUserName("sql8809447");
-    database.setPassword("jxU8gNvcT6");
-   database.setDatabaseName("sql8809447");
+    database.setHostName("**********");
+    database.setUserName("**********");
+    database.setPassword("**********");
+   database.setDatabaseName("**********");
 
     database.open();
     searchFound.clear();
@@ -445,10 +445,10 @@ void searchDatabase_range(float b, float c, int a, QListWidget *listViewWidget) 
 
 void compareDatabase(const QString& search, QListWidget *listViewWidget) {
     QSqlDatabase database = QSqlDatabase::addDatabase("QMYSQL");
-    database.setHostName("sql8.freesqldatabase.com");
-    database.setUserName("sql8809447");
-    database.setPassword("jxU8gNvcT6");
-   database.setDatabaseName("sql8809447");
+    database.setHostName("**********");
+    database.setUserName("**********");
+    database.setPassword("**********");
+   database.setDatabaseName("**********");
 
     database.open();
     searchFound.clear();
